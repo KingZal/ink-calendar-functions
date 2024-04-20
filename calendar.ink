@@ -15,7 +15,7 @@ VAR moon = "regular"
     {x >= 0:
 	    ~ day_total++
 	    ~ x--
-		{month_calc()}
+	{month_calc()}
         {weekDay()}
         {calendar(x)}
 	- else:
